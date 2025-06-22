@@ -7,12 +7,4 @@ conda activate mlops-project2_env
 conda install "numpy<2" statsmodels
 conda activate mlops-project2_env
 python regression.py
-git add .
-git commit -m "Running Version" -a
-git push origin main
-conda list
-git add .
-git commit -m "Added requirements.txt" 
-git push origin main
-conda list -e > requirements.txt
 ```
